@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #040f0f;
+    --secondary-color: #2ba84a;
+    --accent1-color: #248232;
+    --accent2-color: #2d3a3a;
+    --heading-font: "Amaranth", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    align-items: right;
+    top: 0;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    float: right;
+    
+}
+
+article {
+    float: left;
+    left: 10;
+}
