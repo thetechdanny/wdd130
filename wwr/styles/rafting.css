@@ -57,7 +57,7 @@ section p {
 }
 
 article p {
-    margin: 10px;
+    margin: 0;
     padding: 10px;
 }
 
@@ -101,7 +101,7 @@ article {
     width: 100%;
     position: absolute;
     top: 120px;
-    margin: 10px;
+    margin: 0;
     background-color: hsla(129, 91%, 13%, 0.6);
     color: rgb(242, 250, 250);
 }
