@@ -25,28 +25,27 @@ header img {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
 }
 
 nav,
 p,
-article,
 section {
-    margin: 10;
-    border: 2px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -83,26 +82,22 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
-    color: #ffff;
-}
-
-div {
-    border-bottom: 0;
+    color: #ffffff;
 }
 
 article {
-    padding: 10px;
+    padding: 5px;
     width: 100%;
     position: absolute;
     top: 120px;
-    margin: 0;
+    margin: 10;
     background-color: hsla(129, 91%, 13%, 0.6);
-    border: 2px;
-    color: hwb(180 95% 2%);
-
+    color: rgb(242, 250, 250);
 }
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 200px;
+    height: auto;
+    padding: 10px;
 }
