@@ -101,7 +101,7 @@ article {
     width: 100%;
     position: absolute;
     top: 120px;
-    margin: 10;
+    margin: 10px;
     background-color: hsla(129, 91%, 13%, 0.6);
     color: rgb(242, 250, 250);
 }
