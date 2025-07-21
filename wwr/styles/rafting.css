@@ -42,13 +42,24 @@ h2 {
     color: var(--accent1-color);
 }
 
-nav,
-p,
-section {
+nav {
     margin: 10px;
     padding: 10px;
 }
 
+.about {
+    margin: 10px 0;
+
+}
+
+section p {
+    margin: 10px 0;
+}
+
+article p {
+    margin: 10px;
+    padding: 10px;
+}
 
 .socialmedia a {
     text-decoration: none;
