@@ -46,14 +46,13 @@ nav {
 
 header nav a {
     margin: 0 1px;
-    border: 1px solid #040f0f;
     background-color: bisque;
     text-decoration: none;
     width: 100px;
     height: 30px;
     text-align: center;
-    color: #040f0f;
-    font-weight: bold
+    color: #000000;
+    font-weight: bold;
 }
 
 header nav a:hover {
@@ -116,18 +115,20 @@ h2 {
 }
 
 .adventure {
+    max-width: 850px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
 }
 
 figcaption {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
 section h2 {
     text-align: center;
-    color: #040f0f;
+    color: #000000;
 }
 
 .adventure img {
