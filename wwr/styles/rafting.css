@@ -213,6 +213,10 @@ footer {
     color: #000000;
 }
 
+.footertext a {
+    text-decoration: none;
+}
+
 .footericons {
     display: flex;
 }
