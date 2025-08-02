@@ -1,0 +1,21 @@
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    max-width: 840px;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid #898787;
+    padding: 10px;
+}
+
+thead > tr,
+tfoot > tr {
+    background-color: #000;
+    color: #fff;
+}
+
+tr:nth-last-of-type(even) {
+    background-color:  #898787;
+}

@@ -222,3 +222,133 @@ footer {
     margin: 5px 0 5px 10px;
     justify-content: space-around;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin: 0 0 5px 0;
+}
+
+
+.info {
+
+    font-size: small;
+}
+
+.staff {
+    font-size: smaller;
+    margin: 30px 10px 10px 10px;
+}
+
+.staff1 {
+    margin: 5px 0 4px 0;
+
+}
+
+.staff2 {
+    margin: 5px 0 4px 0;
+
+}
+
+.staff3 {
+    margin: 5px 0 4px 0;
+
+}
+
+iframe {
+    width: 70%;
+    height: auto;
+}
+
+.companyinfo {
+    background-color: aliceblue;
+    margin: 0 30px 0 0;
+    border: 2px solid rgb(92, 55, 2);
+    border-radius: 10px;
+    padding: 5px 20px 0 5px;
+}
+
+.companyinfo img {
+    width: 50px;
+    height: auto;
+    margin: 2px;
+}
+
+.logins {
+    height: 100px;
+    padding: 7px 0 0 7px;
+}
+
+.questions {
+    height: 70px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.typearea {
+    height: 500px;
+}
+
+.logins input {
+    height: 25px;
+    margin: 2px 0 7px 4px;
+    padding: 5px;
+}
+
+#name {
+    width: 80%;
+    height: 35%;
+}
+
+#useremail {
+    width: 75%;
+    height: 35%;
+}
+
+form caption {
+    margin: 0 0 30px 0;
+    background-color: aliceblue;
+}
+
+.typearea textarea {
+    margin: 10px 0 0 10px;
+    width: 95%;
+    height: 95%;
+    padding: 8px;
+}
+
+button {
+    width: 12%;
+    height: 12%;
+    float: right;
+    font: 1em sans-serif;
+    background-color: bisque;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(121, 69, 7);
+}
+
+fieldset {
+    border: 1px 0 1px 0 solid #000;
+
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+.heading {
+    background-color: aliceblue;
+    height: 200%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.subscribe {
+    font-size: small;
+}
