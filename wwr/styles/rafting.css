@@ -91,11 +91,6 @@ header nav a:hover {
     margin: 10px 10px 0 20px;
 }
 
-.image img {
-    width: 100%;
-
-}
-
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -245,22 +240,13 @@ footer {
 
 .staff {
     font-size: smaller;
-    margin: 30px 10px 10px 10px;
+    margin: 5px 2px 2px 2px;
 }
 
-.staff1 {
-    margin: 5px 0 4px 0;
-
-}
-
-.staff2 {
-    margin: 5px 0 4px 0;
-
-}
-
+.staff1,
+.staff2,
 .staff3 {
-    margin: 5px 0 4px 0;
-
+    margin: 1rem 0 1rem 0;
 }
 
 iframe {
@@ -311,12 +297,12 @@ iframe {
 
 #name {
     width: 80%;
-    height: 35%;
+    height: 25px;
 }
 
 #useremail {
     width: 75%;
-    height: 35%;
+    height: 25px;
 }
 
 form caption {
@@ -332,8 +318,8 @@ form caption {
 }
 
 button {
-    width: 12%;
-    height: 12%;
+    width: 80px;
+    height: 25px;
     float: right;
     font: 1em sans-serif;
     background-color: bisque;
@@ -344,10 +330,6 @@ button:hover {
     background-color: rgb(121, 69, 7);
 }
 
-fieldset {
-    border: 1px 0 1px 0 solid #000;
-
-}
 
 fieldset legend {
     font-weight: bold;
