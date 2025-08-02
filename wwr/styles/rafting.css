@@ -285,8 +285,14 @@ iframe {
     padding: 10px;
 }
 
-.typearea {
+#questions {
     height: 500px;
+    width: 100%;
+}
+
+.message {
+    font-weight: bold;
+    margin: 10px 0 0 0;
 }
 
 .logins input {
