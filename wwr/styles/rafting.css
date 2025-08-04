@@ -348,3 +348,49 @@ fieldset legend {
 .subscribe {
     font-size: small;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 0 0 0;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 0 13px 0 0;
+}
+
+.profile div img {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+
+.overview {
+    margin: 0 0 0 10px;
+    text-align: justify;
+    background-color: rgba(255, 228, 196, 0.4);
+    padding: 5px 7px 5px 7px;
+    font-size: medium;
+}
+
+.form fieldset {
+    margin: 230px 0 0 0;
+    padding: 5px;
+
+}
+
+.form fieldset #username {
+    width: 20rem;
+    height: 1.5rem;
+    padding: 3px;
+}
+
+.form fieldset #useremail {
+    padding: 3px;
+}
+
+.form fieldset input {
+    margin: 0 0 8px 0;
+}
