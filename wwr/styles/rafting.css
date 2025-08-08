@@ -414,8 +414,12 @@ form caption {
     height: 50px;
     background-color: #248232;
     font-size: larger;
-    color: #ffffff;
     font-weight: bold;
+}
+
+.tripbutton button a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .tripbutton button:hover {
