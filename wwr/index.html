@@ -44,47 +44,58 @@
                     each other.</p>
             </article>
         </div>
-        <div class="container">
-            <div class="profile">
-                <div>
+        <div class="profile">
+            <h2>About Us</h2>
+            <p>Welcome to Danny White Water Rafting Company, where adventure meets safety! We are dedicated to providing
+                thrilling whitewater rafting experiences for all ages and skill levels. Our team of experienced guides
+                ensures that every trip is not only exciting but also safe, allowing you to focus on the fun and beauty
+                of
+                nature.</p><br>
+            <p>Whether you're a seasoned rafter or a first-timer, we have the perfect trip for you. Join us for an
+                unforgettable journey through some of the most stunning rivers and landscapes. Book your adventure
+                today!</p>
+        </div>
+        <div class="gallery">
+            <h2>Our Gallery</h2>
+            <div class="galleries">
+                <figure>
                     <img src="images/b.jpg" alt="Water Rafting">
+                    <figcaption><b>Beautiful Pictures</b></figcaption>
+                </figure>
+                <figure>
                     <img src="images/c.jpg" alt="Water Rafting">
+                    <figcaption><b>Fun Memories</b></figcaption>
+                </figure>
+                <figure>
                     <img src="images/download.jpg" alt="Water Rafting">
+                    <figcaption><b>Fun Memories</b></figcaption>
+                </figure>
+                <figure>
                     <img src="images/c.jpg" alt="Water Rafting">
-                </div>
-                <div class="overview">
-                    <p>Company Overview</p>
-                    <p>Our Purpose</p>
-                    <p>To create thrilling, safe, and memorable whitewater adventures that
-                        connect people with nature and each other. To create thrilling, safe,
-                        and memorable whitewater adventures that connect people with nature and
-                        each other.</p>
-                    <p>What we Offer</p>
-                    <p>Our services include:</p>
-                    <ul>
-                        <li>Guided water rafting trips</li>
-                        <li>Family-Friendly rafting tours</li>
-                        <li>Adventure rafting</li>
-                        <li>Private rafting</li>
-                        <li>Group rafting</li>
-                        <li>Camping packages</li>
-                    </ul>
-                </div>
+                    <figcaption><b>Fun Memories</b></figcaption>
+                </figure>
             </div>
-            <div>
-                <form class="form">
-                    <fieldset>
-                        <legend>Newsletter Sign-Up</legend>
-                        <label for="username">Username</label>
-                        <input type="text" id="username" name="username"><br>
-                        <label for="useremail">Email</label>
-                        <input type="email" id="useremail" name="useremail"><br>
-                        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
-                        <label for="subscribe">Click to subscribe to our newsletter</label>
-                    </fieldset>
+        </div>
+        <div class="trips">
+            <p class="para">If you want to have an adventurous experience, book a trip </p>
+            <fieldset class="tripsform">
+                <legend>Book a Trip</legend>
+                <form class="tripsfill">
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <p>Fields marked asterix (*) are compulsory</p>
                 </form>
-                <p>Visit our trips page <a href="trips.html">&#8594;</a> </p>
-            </div>
+            </fieldset>
+        </div>
+        <div class="tripbutton">
+            <a href="trips.html"><button type="submit">BOOK A TRIP</button></a>
         </div>
 
     </main>
