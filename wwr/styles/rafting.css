@@ -374,15 +374,11 @@ form caption {
 
 }
 
-.tripsform p {
-    font-size: small;
-    color: red
-}
 
 .tripsform {
     padding: 10px;
     background-color: azure;
-    height: 10rem;
+    height: 8rem;
 }
 
 .tripsform input {
@@ -401,6 +397,7 @@ form caption {
     width: 18%;
 
 }
+
 
 .tripbutton {
     text-align: center;
