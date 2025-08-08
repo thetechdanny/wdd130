@@ -387,6 +387,10 @@ form caption {
     margin: 5px 0;
 }
 
+.tripsform legend {
+    font-weight: bold;
+}
+
 
 .tripsfill #email {
     width: 50%;
