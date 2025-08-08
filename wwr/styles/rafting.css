@@ -405,23 +405,20 @@ form caption {
 
 .tripbutton {
     text-align: center;
-}
-
-.tripbutton button {
-    text-align: center;
-    margin: 20px;
+    margin: 20px 20px 20px 200px;
     width: 50%;
     height: 50px;
     background-color: #248232;
     font-size: larger;
     font-weight: bold;
+    padding: 10px;
 }
 
-.tripbutton button a {
+.tripbutton a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.tripbutton button:hover {
+.tripbutton a:hover {
     background-color: #2ba84a;
 }
