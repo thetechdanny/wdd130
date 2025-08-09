@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Awaits Travel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .cta {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta a {
+            background-color: #28a745;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+        .trips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2rem;
+        }
+        .trip {
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+        }
+        .trip img {
+            width: 100%;
+            height: auto;
+        }
+        .trip h3 {
+            margin-top: 1rem;
+        }
+        table {
+            width: 90%;
+            margin: 2rem auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #cccccc;
+        }
+        th, td {
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Adventure Awaits Travel</h1>
+    </header>
+
+    <div class="cta">
+        <a href="contact-us.html">Contact Us Today</a>
+    </div>
+
+    <section class="trips">
+        <div class="trip">
+            <img src="images/mountain-hike.jpg" alt="Mountain Hike">
+            <h3>Mountain Hiking Expedition</h3>
+            <p>Join us for a breathtaking 5-day trek through the Rocky Mountains. Enjoy panoramic views, expert guides, and cozy mountain lodges.</p>
+        </div>
+        <div class="trip">
+            <img src="images/desert-safari.jpg" alt="Desert Safari">
+            <h3>Desert Safari Adventure</h3>
+            <p>Explore the vast sands of the Sahara with our guided 3-day desert safari. Includes camel rides, local cuisine, and overnight tent stays.</p>
+        </div>
+        <div class="trip">
+            <img src="images/island-getaway.jpg" alt="Island Getaway">
+            <h3>Tropical Island Getaway</h3>
+            <p>Relax for a full week on a secluded island paradise. Enjoy private beaches, snorkeling, and spa treatments.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 style="text-align:center;">Available Trips Overview</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trip Name</th>
+                    <th>Duration</th>
+                    <th>Location</th>
+                    <th>Price</th>
+                    <th>Difficulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mountain Hiking Expedition</td>
+                    <td>5 Days</td>
+                    <td>Rocky Mountains</td>
+                    <td>$1,200</td>
+                    <td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Desert Safari Adventure</td>
+                    <td>3 Days</td>
+                    <td>Sahara Desert</td>
+                    <td>$850</td>
+                    <td>Easy</td>
+                </tr>
+                <tr>
+                    <td>Tropical Island Getaway</td>
+                    <td>7 Days</td>
+                    <td>Caribbean</td>
+                    <td>$2,500</td>
+                    <td>Easy</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        &copy; 2025 Adventure Awaits Travel. All rights reserved.
+    </footer>
+
+</body>
+</html>

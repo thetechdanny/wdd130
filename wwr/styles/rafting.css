@@ -412,13 +412,105 @@ form caption {
     font-size: larger;
     font-weight: bold;
     padding: 10px;
-}
-
-.tripbutton a {
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
 }
 
-.tripbutton a:hover {
+.tripbutton:hover {
     background-color: #2ba84a;
+}
+
+.tripsheader,
+.tripsheader:link,
+.tripsheader:visited {
+    margin: 20px 0 40px 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #248232;
+    width: 30%;
+    height: 70%;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tripsheader:hover,
+.tripsheader:active {
+    background-color: #1a5a22;
+    color: #e0ffe0;
+}
+
+.tripsfigure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.tripsfigure div {
+    text-align: center;
+    margin: 10px;
+    border: 0.5px solid #eae2e2;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tripsfigure div h3 {
+    color: #000000;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+}
+
+.tripsfigure img {
+    width: 70%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.tripstable {
+    margin: 40px 0 20px 0;
+}
+
+.tripstable h3 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #248232;
+}
+
+.tripstable table {
+    background-color: aliceblue;
+    border: 1px solid #eae2e2;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tripstable table,
+.tripstable th,
+.tripstable td {
+    border: 1px solid #eae2e2;
+    border-collapse: collapse;
+}
+
+.tripstable th,
+.tripstable td {
+    padding: 8px;
+}
+
+.tripstable td {
+    height: 3rem;
+}
+
+.tripstable th {
+    background-color: #248232;
+    color: #ffffff;
 }
